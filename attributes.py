@@ -3,7 +3,7 @@ import os
 import win32com.client
 from pypresence import Presence
 from dotenv import load_dotenv
-
+import re
 import time
 
 # Loads Environment Variables from .env.
